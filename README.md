@@ -1,6 +1,6 @@
-global install 
+-global install 
 ```  npm install -g typescript  ```
-local install 
+-local install 
 ``` npm install typescript --save-dev  ```
-tsconfig.json  file create 
+-tsconfig.json  file create 
 ``` tsc --init  ```
