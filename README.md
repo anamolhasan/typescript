@@ -1,5 +1,10 @@
 ## Typescript Setup
 
+### first create npm package
+```bash
+npm init -y
+```
+
 ### global install 
 ```bash  
 npm install -g typescript  
@@ -12,3 +17,7 @@ npm install -g typescript
 ```bash
  tsc --init  
  ```
+### typescript file run
+```bash
+tsc
+```
