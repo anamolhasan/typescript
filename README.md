@@ -17,7 +17,11 @@ npm install -g typescript
 ```bash
  tsc --init  
  ```
-### typescript file run
+### typescript file compile
 ```bash
 tsc
+```
+### typescript file run
+```bash
+node dist/index.js
 ```
