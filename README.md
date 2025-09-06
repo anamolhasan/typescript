@@ -1,27 +1,42 @@
 ## Typescript Setup
 
 ### first create npm package
+
 ```bash
 npm init -y
 ```
 
-### global install 
-```bash  
-npm install -g typescript  
+### global install
+
+```bash
+npm install -g typescript
 ```
-### local install 
+
+### local install
+
 ```bash
- npm install typescript --save-dev  
- ```
-### Create tsconfig.json  file 
+ npm install typescript --save-dev
+```
+
+### Create tsconfig.json file
+
 ```bash
- tsc --init  
- ```
+ tsc --init
+```
+
+### after create tsconfig.json file place uncomment
+
+```bash
+    "rootDir": "./src",
+    "outDir": "./dist",
+```
 ### typescript file compile
 ```bash
 tsc
-```
+````
+
 ### typescript file run
+
 ```bash
 node dist/index.js
 ```
