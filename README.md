@@ -1,6 +1,14 @@
--global install 
-```  npm install -g typescript  ```
--local install 
-``` npm install typescript --save-dev  ```
--tsconfig.json  file create 
-``` tsc --init  ```
+## Typescript Setup
+
+### global install 
+```bash  
+npm install -g typescript  
+```
+### local install 
+```bash
+ npm install typescript --save-dev  
+ ```
+### Create tsconfig.json  file 
+```bash
+ tsc --init  
+ ```
