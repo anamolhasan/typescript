@@ -41,3 +41,4 @@ function handleAction(action:Action){
 }
 
 handleAction('start')
+
