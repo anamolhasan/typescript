@@ -12,3 +12,21 @@ function getProduct(id:ProductId){
 
 getProduct('123erd4')
 getProduct(235643)
+
+// intersection type (&)
+type User = {
+   id:string,
+   name:string
+}
+
+type Admin = {
+    isAdmin:boolean
+}
+
+type AdminUser = User & Admin 
+
+const admin : AdminUser = {
+    id:'userId1',
+    name:'anamol hasan',
+    isAdmin:true
+}
