@@ -12,3 +12,31 @@ function display(val:string|number){
 display('Full stack-developer')
 display(23.46757867554)
 
+
+
+// in operator type guards
+type Car = {
+    drive: () => void
+}
+
+type Boat = {
+    sail: () => void
+}
+
+
+function move (vehicle:Car | Boat){
+    if('drive' in vehicle){
+        vehicle.drive()
+    }else{
+        vehicle.sail()
+    }
+}
+
+
+const car : Car = {
+    drive: ()=>{
+        console.log('car is driving....')
+    }
+}
+move(car)
+
