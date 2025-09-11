@@ -9,8 +9,8 @@ function display(val:string|number){
     }
 }
 
-display('Full stack-developer')
-display(23.46757867554)
+// display('Full stack-developer')
+// display(23.46757867554)
 
 
 
@@ -39,4 +39,32 @@ const car : Car = {
     }
 }
 move(car)
+
+
+
+
+// instanceof Type Guards
+class Dog {
+    bark(){
+        console.log('gau gau!')
+    }
+}
+class Cat {
+    meow(){
+        console.log('meow meow!')
+    }
+}
+
+function makeSound(animal:Dog|Cat){
+    if(animal instanceof Dog){
+        animal.bark()
+    }else{
+        animal.meow()
+    }
+}
+
+const dog = new Dog()
+const cat = new Cat()
+makeSound(dog)
+makeSound(cat)
 
