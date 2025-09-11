@@ -30,3 +30,14 @@ const admin : AdminUser = {
     name:'anamol hasan',
     isAdmin:true
 }
+
+
+
+// literal type
+type Action = 'start' | 'pause' | 'stop' | 'submit' | 'reset'
+
+function handleAction(action:Action){
+   console.log(`action : ${action}`)
+}
+
+handleAction('start')
