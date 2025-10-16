@@ -30,9 +30,15 @@ npm install -g typescript
     "rootDir": "./src",
     "outDir": "./dist",
 ```
-### typescript file compile
+### typescript file compile for windows
 ```bash
 tsc
+````
+
+### typescript file compile for mac
+
+```bash
+npx tsc
 ````
 
 ### typescript file run
