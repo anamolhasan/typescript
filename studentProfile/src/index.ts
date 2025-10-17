@@ -18,7 +18,7 @@ type Student = {
     info:[string,number,boolean]
 }
 
-const student1 : Student = {
+const student1 : Student = { 
     name:'anam',
     age:27,
     isEnrolled:true,

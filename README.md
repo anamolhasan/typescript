@@ -31,6 +31,7 @@ npm install -g typescript
     "outDir": "./dist",
 ```
 ### typescript file compile for windows
+
 ```bash
 tsc
 ````

@@ -14,10 +14,18 @@ if(typeof value === 'string'){
 }
 
 
-// void type
+// void type  (not return)
 function logMessage (): void{
     console.log('Logged successful')
 }
+
+// return for use
+function greeting (name: string) : string {
+    return `Hello ${name}`
+}
+console.log(greeting('Anam'))
+
+
 
 // null type
 let number = null
