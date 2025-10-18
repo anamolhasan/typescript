@@ -1,6 +1,14 @@
 "use strict";
-// Optional and default parameter
 Object.defineProperty(exports, "__esModule", { value: true });
+// void return type
+function logMessage(message) {
+    console.log('Log', message);
+}
+// never return type (advanced)
+function throwError() {
+    throw new Error('Something went wrong!');
+}
+// Optional and default parameter
 function greet(fistName, lastName, title) {
     return `Hello ${fistName} - ${lastName} is a ${title ? title : 'N/A'}`;
 }

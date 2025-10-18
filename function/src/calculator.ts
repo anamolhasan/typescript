@@ -32,6 +32,6 @@ function calculation (operation:string, a:number, b:number):number {
     }
 }
 
-console.log('+', add(12,6))
-console.log('-', add(12,6))
-console.log('*', add(12,6))
+console.log('add', calculation('+',12,6))
+console.log('subtract', calculation('-',12,6))
+console.log('multiply', calculation('*',12,6))

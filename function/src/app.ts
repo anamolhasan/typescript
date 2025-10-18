@@ -1,3 +1,15 @@
+// void return type
+function logMessage (message: string): void {
+    console.log('Log', message)
+}
+
+
+// never return type (advanced)
+function throwError () : never {
+    throw new Error ('Something went wrong!')
+}
+
+
 // Optional and default parameter
 
 function greet(fistName:string, lastName:string,title?:string):string{

@@ -1,0 +1,1 @@
+{"version":3,"file":"user_profile.js","sourceRoot":"","sources":["../src/user_profile.ts"],"names":[],"mappings":";AAAA,eAAe;;AAmBf,iCAAiC;AACjC,MAAM,OAAO,GAAY;IACrB,EAAE,EAAC,CAAC;IACJ,QAAQ,EAAC,cAAc;IACvB,KAAK,EAAC,2BAA2B;IACjC,GAAG,EAAC,6BAA6B;IACjC,KAAK,EAAC,CAAC,QAAQ,EAAE,QAAQ,EAAE,QAAQ,CAAC;CACvC,CAAA;AAED,8BAA8B;AAC9B,MAAM,aAAa,GAAY,QAAQ,CAAA"}

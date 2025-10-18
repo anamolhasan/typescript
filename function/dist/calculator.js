@@ -24,7 +24,7 @@ function calculation(operation, a, b) {
         default: throw new Error('Invalid operation');
     }
 }
-console.log('+', add(12, 6));
-console.log('-', add(12, 6));
-console.log('*', add(12, 6));
+console.log('add', calculation('+', 12, 6));
+console.log('subtract', calculation('-', 12, 6));
+console.log('multiply', calculation('*', 12, 6));
 //# sourceMappingURL=calculator.js.map
