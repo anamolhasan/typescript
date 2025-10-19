@@ -24,6 +24,11 @@ function printPost(post:BlogPost){
   console.log(`Title : ${post.title}`)
   console.log(`Title : ${post.author}`)
   console.log(`Title : ${post.content}`)
+  console.log(`Published : ${post.published}`)
+
+  if(post.publishedDate){
+    console.log(`Date: ${post.publishedDate}`)
+  }
 }
 
 printPost(myPost)

@@ -1,6 +1,4 @@
-
-
-
+// object type
 const student = {
     name:'anam',
     age:27
@@ -25,7 +23,7 @@ function showUser (user: User) {
 const user1 = {name:'hasan', age:23}
 showUser(user1)
 
-
+// type alias
 type Product = {
     id:number,
     name:string,
