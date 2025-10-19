@@ -15,3 +15,19 @@ const myDog :Dog = {
     name:'Tommy',
     breed:'Golden Retriever'
 }
+
+
+
+//  extends
+// interface Book {
+//     name:string
+// }
+
+// interface English extends Book{
+//     page:number
+// }
+
+// const myBook :English = {
+//    name:'MY English Book',
+//    page:333
+// }
