@@ -13,6 +13,7 @@ interface Author extends User {
     posts:string[]
 }
 
+// Literal type
 // step 3. define user status using type
 type Status = 'active' | 'inactive' | 'banned'
 
@@ -26,5 +27,5 @@ const author1 : Author = {
     posts:['post 1', 'post 2', 'post 3']
 }
 
-// step 4. make account status
+// step 5. make account status
 const accountStatus : Status = 'active'

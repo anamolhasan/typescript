@@ -1,9 +1,12 @@
 // union and intersection type
 
 // union type (|)
-
 let value : string | number
 
+
+
+
+// type alias
 type ProductId = string | number
 
 function getProduct(id:ProductId){
@@ -13,7 +16,7 @@ function getProduct(id:ProductId){
 getProduct('123erd4')
 getProduct(235643)
 
-// intersection type (&)
+
 type User = {
    id:string,
    name:string
@@ -23,6 +26,7 @@ type Admin = {
     isAdmin:boolean
 }
 
+// intersection type (&)
 type AdminUser = User & Admin 
 
 const admin : AdminUser = {
