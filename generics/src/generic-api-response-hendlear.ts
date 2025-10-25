@@ -1,6 +1,6 @@
-//  Project: Generic API response handler.
+//  Project: Generic API response handler...........
 
-//  step-1: api response interface (generics)
+//  step-1: api response interface (generics).........
 
 interface ApiResponse <T>{
     status: number;

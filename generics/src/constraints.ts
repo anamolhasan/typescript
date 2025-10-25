@@ -24,7 +24,7 @@ printLength("Hello, Developer")  // 18
 printLength([1, 4, 6]) 
 
 
-// id check
+// id check..........
 interface HasId {
     id: number
 }
