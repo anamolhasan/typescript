@@ -9,7 +9,7 @@ logData<boolean>(true)
 
 
 
-// generics interface example.........
+// generics interface example
 interface ApiResponse<T> {
     success:boolean;
     data: T
